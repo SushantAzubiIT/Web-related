@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 #container{
     display: flex;
     align-items: center;
@@ -18,4 +24,28 @@
     height: 50px;
     margin: 10px;
     padding: 4px;
+}
+
+#navigation_bar{
+    display: flex;
+    background-color: beige;
+    justify-content: space-evenly;
+}
+
+.elements{
+    background-color: burlywood;
+    height: 40px;
+    width: 70px;
+    margin-left: 20px;
+    color: dimgray;
+    text-align: center;
+    position: relative;
+    display: grid;         /*for now i dont know that much concept about this display grid but i did it 
+    so that the items would be in center specially text*/
+    place-items: center;  
+}
+
+.elements a{
+    text-decoration: none;
+    color: dimgray;
 }
