@@ -90,3 +90,18 @@ body{
 .centering-the-text{
     text-align: center;
 }
+
+#about-explained{
+    font-family: "Orbitron", sans-serif;
+    gap: 15px;
+    padding: 20px;
+}
+
+ol {
+    list-style-position: inside; /* Keeps numbers tucked in with the text */
+    padding: 0;                  /* Removes that 10px-40px "backward" push */
+    margin: 0;                   /* Clears any default spacing */
+    display: inline-block;       /* Makes the list box only as wide as the text */
+    text-align: left;            /* Keeps the 1, 2, 3 in a straight vertical line */
+}
+
