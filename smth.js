@@ -1,1 +1,0 @@
-document.getElementById("menu").innerText = "Here Is Menu" 
